@@ -94,15 +94,33 @@ h6 {
   padding-top: 8rem;
   padding-bottom: 8rem;
   background: #007acc;
+  background-image: url("../img/bg-desenzano.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.masthead__info {
+  color: #fff;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.masthead__info-icon {
+  display: inline-block;
+  margin-right: 5px;
+  color: #007acc;
+}
+
+.masthead__info-location {
+  margin-left: 20px;
 }
 
 .masthead h1 {
   font-size: 4rem;
   margin: 0;
   padding: 0;
+  color: #007acc;
 }
 
 @media (min-width: 992px) {
@@ -301,8 +319,8 @@ h6 {
 }
 
 footer.footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 0;
+  padding-bottom: 1rem;
 }
 
 footer.footer .social-link {
@@ -373,4 +391,17 @@ a:hover, a:focus, a:active {
 
 .text-secondary {
   color: #ecb807 !important;
+}
+
+#mc_embed_signup {
+  margin: 20px 0;
+  text-align: left;
+}
+
+.content__gdpr label {
+  font-weight: bold;
+}
+
+.gdprRequired {
+  margin-bottom: 20px;
 }
