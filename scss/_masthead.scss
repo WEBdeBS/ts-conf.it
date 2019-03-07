@@ -33,6 +33,7 @@
     margin: 0;
     padding: 0;
     color: $primary;
+    @include stroke(#FFF, 2px);
   }
   @media (min-width: 992px) {
     height: 100vh;
