@@ -26,6 +26,10 @@
     &-location{
       margin-left: 20px;
     }
+
+    &-text{
+      @include stroke($primary, 1px);
+    }
   }
 
   h1 {

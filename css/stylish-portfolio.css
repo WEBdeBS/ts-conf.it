@@ -117,6 +117,10 @@ h6 {
   margin-left: 20px;
 }
 
+.masthead__info-text {
+  text-shadow: -1px -1px 0 #007acc, 0 -1px 0 #007acc, 1px -1px 0 #007acc, 1px 0 0 #007acc, 1px 1px 0 #007acc, 0 1px 0 #007acc, -1px 1px 0 #007acc, -1px 0 0 #007acc;
+}
+
 .masthead h1 {
   font-size: 4rem;
   margin: 0;
