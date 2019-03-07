@@ -23,6 +23,13 @@ body {
   padding-bottom: 7.5rem;
 }
 
+@media (max-width: 992px) {
+  .content-section {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+}
+
 .content-section-heading h2 {
   font-size: 3rem;
 }
@@ -48,12 +55,6 @@ h6 {
 /* Map */
 .map {
   height: 30rem;
-}
-
-@media (max-width: 992px) {
-  .map {
-    height: 75%;
-  }
 }
 
 .map iframe {
@@ -94,15 +95,38 @@ h6 {
   padding-top: 8rem;
   padding-bottom: 8rem;
   background: #007acc;
+  background-image: url("../img/bg-desenzano.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.masthead__info {
+  color: #fff;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.masthead__info-icon {
+  display: inline-block;
+  margin-right: 5px;
+  color: #007acc;
+}
+
+.masthead__info-location {
+  margin-left: 20px;
+}
+
+.masthead__info-text {
+  text-shadow: -1px -1px 0 #007acc, 0 -1px 0 #007acc, 1px -1px 0 #007acc, 1px 0 0 #007acc, 1px 1px 0 #007acc, 0 1px 0 #007acc, -1px 1px 0 #007acc, -1px 0 0 #007acc;
 }
 
 .masthead h1 {
   font-size: 4rem;
   margin: 0;
   padding: 0;
+  color: #007acc;
+  text-shadow: -2px -2px 0 #FFF, 0 -2px 0 #FFF, 2px -2px 0 #FFF, 2px 0 0 #FFF, 2px 2px 0 #FFF, 0 2px 0 #FFF, -2px 2px 0 #FFF, -2px 0 0 #FFF;
 }
 
 @media (min-width: 992px) {
@@ -301,8 +325,8 @@ h6 {
 }
 
 footer.footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 0;
+  padding-bottom: 1rem;
 }
 
 footer.footer .social-link {
@@ -373,4 +397,17 @@ a:hover, a:focus, a:active {
 
 .text-secondary {
   color: #ecb807 !important;
+}
+
+#mc_embed_signup {
+  margin: 20px 0;
+  text-align: left;
+}
+
+.content__gdpr label {
+  font-weight: bold;
+}
+
+.gdprRequired {
+  margin-bottom: 20px;
 }
