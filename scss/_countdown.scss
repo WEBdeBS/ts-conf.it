@@ -1,0 +1,17 @@
+.countdown{
+  font-size: 2rem;
+  line-height: 2rem;
+  color: $white;
+  @include stroke($primary, 1px);
+  
+  &__item{
+    display: inline-block;
+    padding: 20px;
+    text-transform: uppercase;
+    
+    &-label{
+      display: block;
+      text-transform: uppercase;
+    }
+  }
+}

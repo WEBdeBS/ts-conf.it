@@ -69,7 +69,11 @@ function modules() {
     .pipe(gulp.dest('./vendor/simple-line-icons/fonts'));
   var simpleLineIconsCSS = gulp.src('./node_modules/simple-line-icons/css/**')
     .pipe(gulp.dest('./vendor/simple-line-icons/css'));
-  return merge(bootstrap, fontAwesome, jquery, jqueryEasing, simpleLineIconsFonts, simpleLineIconsCSS);
+  var countdown = gulp.src([
+    './node_modules/countdown-js/dist/*'
+  ])
+    .pipe(gulp.dest('./vendor/countdown')); 
+  return merge(bootstrap, fontAwesome, jquery, jqueryEasing, simpleLineIconsFonts, simpleLineIconsCSS, countdown);
 }
 
 // CSS task

@@ -71,6 +71,25 @@
         <em>Indipendent Italian TypeScript Conference</em>
       </h3>
       <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+      <div class="countdown">
+        <div class="countdown__item">
+          <span id="days">0</span> 
+          <span class="countdown__item-label">Days</span>
+        </div>
+        <div class="countdown__item">
+          <span id="hours">0</span> 
+          <span class="countdown__item-label">Hours</span>
+        </div>
+        <div class="countdown__item">
+          <span id="minutes">0</span> 
+          <span class="countdown__item-label">Minutes</span>
+        </div>
+        <div class="countdown__item">
+          <span id="seconds">0</span> 
+          <span class="countdown__item-label">Seconds</span>
+        </div>
+        <div id="countdown-end" style="display: none;">Countdown Finished!</div>
+      </div>
     </div>
     <div class="overlay"></div>
   </header>
@@ -231,9 +250,13 @@
 
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  
+  <!-- Countdown -->
+  <script src="vendor/countdown/countdown.min.js"></script>
 
   <!-- Custom scripts for this template -->
   <script src="js/stylish-portfolio.min.js"></script>
+  <script src="js/countdown.min.js"></script>
 
 </body>
 
