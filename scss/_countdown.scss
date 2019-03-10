@@ -3,6 +3,7 @@
   line-height: 2rem;
   color: $white;
   @include stroke($primary, 1px);
+  display: none;
   
   &__item{
     display: inline-block;
@@ -13,5 +14,9 @@
       display: block;
       text-transform: uppercase;
     }
+  }
+
+  @media (min-width: 992px) {
+    display: block;
   }
 }
