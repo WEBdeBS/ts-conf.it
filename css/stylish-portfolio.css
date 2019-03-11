@@ -92,8 +92,8 @@ h6 {
   display: table;
   width: 100%;
   height: auto;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   background: #007acc;
   background-image: url("../img/bg-desenzano.png");
   background-position: center center;
@@ -410,4 +410,29 @@ a:hover, a:focus, a:active {
 
 .gdprRequired {
   margin-bottom: 20px;
+}
+
+.countdown {
+  font-size: 2rem;
+  line-height: 2rem;
+  color: #fff;
+  text-shadow: -1px -1px 0 #007acc, 0 -1px 0 #007acc, 1px -1px 0 #007acc, 1px 0 0 #007acc, 1px 1px 0 #007acc, 0 1px 0 #007acc, -1px 1px 0 #007acc, -1px 0 0 #007acc;
+  display: none;
+}
+
+.countdown__item {
+  display: inline-block;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+.countdown__item-label {
+  display: block;
+  text-transform: uppercase;
+}
+
+@media (min-width: 992px) {
+  .countdown {
+    display: block;
+  }
 }
