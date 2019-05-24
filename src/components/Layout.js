@@ -2,8 +2,10 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
+import { withPrefix } from 'gatsby'
 import './../sass/style.scss'
 import useSiteMetadata from './SiteMetadata'
+
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
@@ -27,11 +29,24 @@ const TemplateWrapper = ({ children }) => {
         <link rel="stylesheet" href="/fonts/flaticon/font/flaticon.css" />
         <link rel="stylesheet" href="/css/aos.css" />
 
-
-
       </Helmet>
       <div>{children}</div>
       <Footer />
+      {/*<script src={withPrefix('/js/jquery-3.3.1.min.js')} />
+      <script src={withPrefix('/js/main.js')} />
+      <script type="text/javascript">alert("ciao");</script>
+      <script src="/js/jquery-3.3.1.min.js"></script>
+      <script src="/js/jquery-migrate-3.0.1.min.js"></script>
+      <script src="/js/jquery-ui.js"></script>
+      <script src="/js/popper.min.js"></script>
+      <script src="/js/bootstrap.min.js"></script>
+      <script src="/js/owl.carousel.min.js"></script>
+      <script src="/js/jquery.stellar.min.js"></script>
+      <script src="/js/jquery.countdown.min.js"></script>
+      <script src="/js/jquery.magnific-popup.min.js"></script>
+      <script src="/js/bootstrap-datepicker.min.js"></script>
+      <script src="/js/aos.js"></script> */}
+      
     </div>
   )
 }
