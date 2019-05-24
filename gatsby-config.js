@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'TSconf 2019 by WEBdeBs',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'TSconf 2019 by WEBdeBs: First Italian TypeScript Conference. Desenzano 25th October 2019',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
