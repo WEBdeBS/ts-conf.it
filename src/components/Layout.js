@@ -1,14 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Helmet from 'react-helmet'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import { withPrefix } from 'gatsby'
 import './../sass/style.scss'
 import useSiteMetadata from './SiteMetadata'
-
+import { CookieBanner } from '@palmabit/react-cookie-law';
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
+  const [acceptedStatistics, setAcceptedStatistics] = useState(false);
+
   return (
     <div>
       <Helmet>
@@ -29,9 +31,39 @@ const TemplateWrapper = ({ children }) => {
         <link rel="stylesheet" href="/fonts/flaticon/font/flaticon.css" />
         <link rel="stylesheet" href="/css/aos.css" />
 
+        {acceptedStatistics &&
+          <script type="text/javascript" async defer src={withPrefix('/js/statistics-scripts.js')}></script>
+        }
       </Helmet>
       <div>{children}</div>
       <Footer />
+
+
+      <CookieBanner
+        message="This site is able to use the cookies needed to use the cookie policy. To learn more or opt out, see the cookie policy. By accepting it you consent to use cookies."
+        acceptButtonText="Consent"
+        necessaryOptionText='Required / Tech'
+        statisticsOptionText='Analytics'
+        showMarketingOption={false}
+        privacyPolicyLinkText='Privacy and Cookie policy'
+        policyLink='/privacy'
+        showPreferencesOption={false}
+        onAccept={() => { }}
+        onAcceptPreferences={() => { acceptedStatistics !== true && setAcceptedStatistics(true) }}
+        onAcceptStatistics={() => { }}
+        styles={{
+          dialog: {
+            position: 'fixed',
+            bottom: '0',
+            left: '0',
+            right: '0',
+            zIndex: '100000',
+            backgroundColor: '#f8f7f7',
+            padding: '10px',
+          }
+        }}
+      />
+
       {/*<script src={withPrefix('/js/jquery-3.3.1.min.js')} />
       <script src={withPrefix('/js/main.js')} />
       <script type="text/javascript">alert("ciao");</script>
@@ -46,7 +78,7 @@ const TemplateWrapper = ({ children }) => {
       <script src="/js/jquery.magnific-popup.min.js"></script>
       <script src="/js/bootstrap-datepicker.min.js"></script>
       <script src="/js/aos.js"></script> */}
-      
+
     </div>
   )
 }
