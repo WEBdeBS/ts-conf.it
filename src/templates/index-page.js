@@ -10,6 +10,7 @@ import CallForPaper from '../components/CallForPaper'
 // import Schedule from '../components/Schedule'
 // import Sponsors from '../components/Sponsors'
 // import News from '../components/News'
+import MediaPartner from '../components/MediaPartner'
 import Map from '../components/Map'
 import CodeOfConduct from '../components/CodeOfConduct'
 
@@ -31,6 +32,7 @@ export const IndexPageTemplate = ({
     <Hero></Hero>
     <CallForPaper></CallForPaper>
     <Newsletter></Newsletter>
+    <MediaPartner></MediaPartner>
     <CodeOfConduct></CodeOfConduct>
     <Map></Map>
     
