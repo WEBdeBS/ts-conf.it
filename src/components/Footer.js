@@ -1,11 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
-
-import logo from '../img/logo.svg'
-import facebook from '../img/social/facebook.svg'
-import instagram from '../img/social/instagram.svg'
-import twitter from '../img/social/twitter.svg'
-import vimeo from '../img/social/vimeo.svg'
 
 const Footer = class extends React.Component {
   render() {
@@ -33,8 +26,8 @@ const Footer = class extends React.Component {
             <div className="col-md-4">
               <h2 className="footer-heading text-uppercase mb-4">Connect with Us</h2>
               <p>
-                <a href="https://www.facebook.com/webdebs/" className="p-2 pl-0" target="_blank"><span className="icon-facebook"></span></a>
-                <a href="https://twitter.com/ConfTs" className="p-2" target="_blank"><span className="icon-twitter"></span></a>
+                <a href="https://www.facebook.com/webdebs/" className="p-2 pl-0" target="_blank" rel="noopener noreferrer"><span className="icon-facebook"></span></a>
+                <a href="https://twitter.com/ConfTs" className="p-2" target="_blank" rel="noopener noreferrer"><span className="icon-twitter"></span></a>
               </p>
             </div>
           </div>

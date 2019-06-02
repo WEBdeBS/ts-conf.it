@@ -1,11 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
-
-import logo from '../img/logo.svg'
-import facebook from '../img/social/facebook.svg'
-import instagram from '../img/social/instagram.svg'
-import twitter from '../img/social/twitter.svg'
-import vimeo from '../img/social/vimeo.svg'
 
 const menuIconStyle = {
   position: "relative",
@@ -37,9 +30,9 @@ const Header = class extends React.Component {
               </nav>
             </div>
             <div className="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style={menuIconStyle}>
-              <a href="#" className="site-menu-toggle js-menu-toggle text-white">
+              <button className="site-menu-toggle js-menu-toggle text-white">
                 <span className="icon-menu h3"></span>
-              </a>
+              </button>
             </div>
           </div>
         </div>
