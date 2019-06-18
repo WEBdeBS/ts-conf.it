@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 const Map = class extends React.Component {
   render() {
@@ -17,7 +16,7 @@ const Map = class extends React.Component {
             </div>
           </div>
         </div>
-        <iframe src="https://snazzymaps.com/embed/154926" width="100%" height="600px" style={{border: "none"}}></iframe>
+        <iframe src="https://snazzymaps.com/embed/154926" width="100%" height="600px" style={{border: "none"}} title="This is a unique title"></iframe>
       </div>
     )
   }
