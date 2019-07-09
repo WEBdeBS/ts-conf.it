@@ -13,14 +13,19 @@ const MediaPartner = class extends React.Component {
             </div>
           </div>
           <div className="row mb-5 media-partner__logos">
-            <div className="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos-disabled="fade" data-aos-delay="200">
-              <img src="/images/grusp.svg" alt="GRUSP" className="img-fluid img-full" />
-            </div>
             <div className="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos-disabled="fade" data-aos-delay="300">
               <img src="/images/brewbox.svg" alt="Brewbox" className="img-fluid img-full" />
             </div>
             <div className="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos-disabled="fade" data-aos-delay="400">
+              <img src="/images/python_italia.png" alt="Python Italia" className="img-fluid img-full" />
+            </div>
+            <div className="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos-disabled="fade" data-aos-delay="400">
               <img src="/images/doitbetter.svg" alt="Do It Better" className="img-fluid img-full" />
+            </div>
+          </div>
+          <div className="row mb-5 media-partner__logos">
+            <div className="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos-disabled="fade" data-aos-delay="200">
+              <img src="/images/grusp.svg" alt="GRUSP" className="img-fluid img-full" />
             </div>
           </div>
         </div>
