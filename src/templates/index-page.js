@@ -6,7 +6,7 @@ import Layout from '../components/Layout'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
 import CallForPaper from '../components/CallForPaper'
-// import Speakers from '../components/Speakers'
+import Speakers from '../components/Speakers'
 // import Schedule from '../components/Schedule'
 // import Sponsors from '../components/Sponsors'
 // import News from '../components/News'
@@ -30,6 +30,7 @@ export const IndexPageTemplate = ({
   <div>
     <Header></Header>
     <Hero></Hero>
+    <Speakers></Speakers>
     <CallForPaper></CallForPaper>
     <Newsletter></Newsletter>
     <MediaPartner></MediaPartner>
