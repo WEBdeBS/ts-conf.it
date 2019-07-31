@@ -20,6 +20,7 @@ const Header = class extends React.Component {
                   <li className="active"><a href="/">Home</a></li>
                   
                   <li><a href="#speakers">Speakers</a></li>
+                  <li><a href="#tickets">Tickets</a></li>
                   <li><a href="#newsletter">Newsletter</a></li>
                   <li><a href="#code-of-conduct">Code of Conduct</a></li>
                   <li><a href="#location">Location</a></li>

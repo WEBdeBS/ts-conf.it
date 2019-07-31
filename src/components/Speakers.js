@@ -17,7 +17,7 @@ const Speakers = class extends React.Component {
             </div>
           </div>
           {/* spearker 1 */}
-          <div className="row align-items-center speaker">
+          <div className="row -align-items-center speaker">
             <div className="col-lg-4 mb-5 mb-lg-0" data-aos-disabled="fade" data-aos-delay="100">
               <img src="images/speaker1.jpg" alt="Image" className="img-fluid" />
           </div>
