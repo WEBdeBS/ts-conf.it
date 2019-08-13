@@ -5,13 +5,13 @@ const Tickets = class extends React.Component {
     return (
       <div className="site-section call-for-paper" id="tickets">
         <div className="container">
-          <div class="row mb-5">
-            <div class="col-lg-4">
-              <div class="site-section-heading" data-aos-disabled="fade-up">
+          <div className="row mb-5">
+            <div className="col-lg-4">
+              <div className="site-section-heading" data-aos-disabled="fade-up">
                 <h2>Tickets</h2>
               </div>
             </div>
-          <div class="col-lg-6 mt-5 pl-lg-5" data-aos-disabled="fade-up" data-aos-delay="100">
+          <div className="col-lg-6 mt-5 pl-lg-5" data-aos-disabled="fade-up" data-aos-delay="100">
               <p>You can find our tickets available on Eventbrite</p>
           </div>
        </div>

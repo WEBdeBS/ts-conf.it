@@ -19,7 +19,7 @@ const NotFoundPage = () => (
           <div className="col-md-4"></div>
           <div className="col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="500">
             <p>You just hit a route that doesn&#39;t exist... the sadness.</p>                        
-            <a href="/" class="btn-custom" data-aos-disabled="fade-up" data-aos-delay="400"><span>Back to home</span></a>
+            <a href="/" className="btn-custom" data-aos-disabled="fade-up" data-aos-delay="400"><span>Back to home</span></a>
           </div>
         </div>
       </div>
