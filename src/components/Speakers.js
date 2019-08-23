@@ -88,6 +88,36 @@ const Speakers = class extends React.Component {
               </div>
             </div>
           </div>
+          <hr/>
+
+          {/* spearker 3 */}
+          <div className="row -align-items-center speaker">
+            <div className="col-lg-4 mb-5 mb-lg-0" data-aos-disabled="fade" data-aos-delay="100">
+              <img src="images/speaker3.png" alt="Image" className="img-fluid" />
+            </div>
+            <div className="col-lg-6">
+              <div className=" pl-lg-5 mb-4">
+                <h2 className="text-white mb-4 name" data-aos-disabled="fade-right" data-aos-delay="200">Full-stack type safety with TypeScript and io-ts</h2>
+                Ever wondered what going full-stack TypeScript means for your day-to-day workflow? In this talk we’ll see how to exploit the TS type system and the io-ts library to provide a “full-stack type-safe” development experience for a project comprising a Node.js HTTP API and a single page web application.
+                <br />
+                <br />
+                In this talk we’ll see how developing on the same language and technologies full-stack can lead to a smooth developer experience with strong assurances of correctness at build-time. I’ll present the awesome io-ts library by Giulio Canti and a few key concepts of the TS type-system, and we’ll build upon these to live-code a custom solution to meet our needs. We’ll also briefly discuss other related topics, such as JSON (de)serialization and API error handling, and compare what we obtained with other available solutions.
+              </div>
+              <div className="bio pl-lg-5">
+                <span className="text-uppercase text-primary d-block mb-3" data-aos-disabled="fade-right" data-aos-delay="300">Giovanni Gonzaga</span>
+                <p className="mb-4" data-aos-disabled="fade-right" data-aos-delay="400">
+                  Giovanni works at <a href="https://www.buildo.io/" target="_blank">Buildo</a> as technical lead on areas related to frontend development and TypeScript. He gained experience working as a freelancer in Italy and the US for several years. Passionate about next-generation web technologies, programming languages, functional programming and aviation. Before co-founding buildo, he founded a consultancy agency in Italy and has been research assistant at UIC, where he focused on security related to compilers and operating systems. He graduated from UIC with a Master’s in Computer Science and from Politecnico di Milano with a Master’s in Computer Engineering.
+                </p>
+                <p data-aos-disabled="fade-right" data-aos-delay="500">
+                  Follow Giovanni &mdash;
+                  <a href="https://twitter.com/giogonzo" target="_blank"
+                    className="p-2"><span className="icon-twitter"></span></a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr />
+
 
         </div>
       </div>
