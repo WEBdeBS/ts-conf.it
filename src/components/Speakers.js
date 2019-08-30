@@ -24,16 +24,19 @@ const Speakers = class extends React.Component {
             </div>
             <div className="col-lg-6">
               <div className=" pl-lg-5 mb-4">
-                <h2 className="text-white mb-4 name" data-aos-disabled="fade-right" data-aos-delay="200">TypeScript, Open Source e il Team Digitale: la storia di io.italia.it</h2>
-                Parlerò di quello che probabilmente è uno dei più corposi e complessi progetti open source scritti interamente in TypeScript (con più di 50k righe di codice) - un progetto interamente finanziato dal Governo Italiano e il cui obiettivo è rendere la vita dei cittadini italiani più semplice.
+                <h2 className="text-white mb-4 name" data-aos-disabled="fade-right" data-aos-delay="200">TypeScript, Open Source and the Government: the birth of IO.italia.it</h2>
+                I'll talk about what is probably one of the biggest open source projects written entirely in TypeScript: IO.italia.it, an app and a platform API that helps people interact with the national and local Government.
                 <br/>
                 <br />
-                Ad inizio 2017 inizia la storia del progetto IO.italia.it, il progetto open source per sviluppare l’app dei servizi pubblici - in due anni abbiamo scritto più di 50 mila righe di codice TypeScript tra app mobile (React Native) e backend (NodeJS e Azure Functions). Racconterò la storia del progetto, le scelte tecniche, le librerie e i tool open source che abbiamo creato e come TypeScript ci abbia aiutato a scrivere codice e più sicuro e solido.
+                We started working on IO at the beginning of 2017, in two and half years we've written almost 60K lines (and counting) of TypeScript code between the mobile app (React Native) and the backend (Express and Azure Functions).
+I'll talk about the history of the project, the technical and architectural choices we made, the libraries and the tools we use and we contributed to the community and how TypeScript helps us to write better, more solid and more secure code.
               </div>
               <div className="bio pl-lg-5">
                 <span className="text-uppercase text-primary d-block mb-3" data-aos-disabled="fade-right" data-aos-delay="300">Federico Feroldi</span>
                 <p className="mb-4" data-aos-disabled="fade-right" data-aos-delay="400">
-                  Più di vent’anni di esperienza professionale nello sviluppo di prodotti digitali tra internet companies, megacorp e startup. Ho una profonda passione per l’ingegneria del software e del paradigma funzionale. Ho iniziato programmando in C e assembly e sono passato per Ruby e Scala, finendo per passare i miei ultimi due anni programmando quasi esclusivamente in TypeScript. Se vuoi del feedback sul tuo codice, mandami una PR :)
+                  I've written my first web app a little more than 20 years ago (in Perl) and since then I've never stopped enjoying building digital products.
+<br/>I've worked for small startups, big megacorporates and I've also co-founded a few startups, giving me the chance to live and work in Italy, UK, US and Germany and have the opportunity to work with quality teams and exceptional people.
+                  <br />I love writing as much as reading other people's code, if you'd like a feedback just send me a code review request on github :) 
                 </p>
                 <p data-aos-disabled="fade-right" data-aos-delay="500">
                   Follow Federico &mdash;
