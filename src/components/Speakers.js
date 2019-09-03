@@ -121,6 +121,81 @@ I'll talk about the history of the project, the technical and architectural choi
           </div>
           <hr />
 
+          {/* spearker 4 */}
+          <div className="row -align-items-center speaker">
+            <div className="col-lg-4 mb-5 mb-lg-0 order-lg-2" data-aos-disabled="fade" data-aos-delay="100">
+            <img src="images/speaker4.png" alt="Image" className="img-fluid" />
+          </div>
+          <div className="col-lg-6">
+            <div className="lg-5 mb-4">
+                <h2 className="text-white mb-4 name" data-aos-disabled="fade-left" data-aos-delay="200">Fall in Love With TS Decorators</h2>
+              Decorators is one of the most underrated features in TS. At the same time is one of the most life changing features. Once you get it your, life will never be the same. We will start from basics definitions and go all the way to advanced real life examples and use cases.
+              <br />
+              <br />
+             Decorators are incredibly cool. They allow you to describe meta data directly in the class declaration, grouping everything in one place and avoiding duplication. Terribly addictive. Once having tried, you will use it forever However the decorators in TypeScript are not as simple as we would like. Working with them requires some skills.
+   <br/>
+   In this talk we will try to cover:
+      <br />
+      <ul>
+                  <li>Prologue
+                    <ul>
+                  <li>Decorators in TC39 stage 2. meaning and when to expect.</li>
+                  <li>Babel</li>
+                  <li>Frameworks uses decorators (Angular, NestJS, MobiX…)</li>
+                    </ul>
+                  </li>
+                  <li>Intro
+                <ul>
+                  <li>Descriptor and why it’s matter</li>
+                  <li>Simple logger decorator (livecoding)</li>
+                </ul>
+                  </li>
+                  <li>Method decorator
+                <ul>
+                  <li>Run time</li>
+                  <li>Validators (livecoding)</li>
+                  <li>memoize (livecoding)</li>
+                  </ul>
+                  </li>
+                  <li>Method’s param decorator
+               <ul>
+                  <li>Why it’s so cool</li>
+                  <li>Real life examples (livecoding)</li>
+                </ul>
+                  </li>
+                  <li>Class Decorators (livecoding)
+                      <ul>
+                  <li>Class Composition</li>
+                  <li>Class mixing</li>
+                </ul>
+                  </li>
+                  <li>Advances (optionally)
+                    <ul>
+                  <li>Reflection, metadata</li>
+                  <li>Use cases and examples (livecoding)</li>
+                </ul>
+                  </li>
+                  A coding is worth a thousand words….
+   </ul>
+            </div>
+            <div className="bio pr-lg-5">
+                <span className="text-uppercase text-primary d-block mb-3" data-aos-disabled="fade-right" data-aos-delay="300">Daniel Ostrovsky</span>
+              <p className="mb-4" data-aos-disabled="fade-right" data-aos-delay="400">
+                Web development (Full Cycle) expert and teams manager with over twenty years of experience in the industry.
+  
+  Contact & coordination with many people/groups worldwide: R&D, Marketing, QA, Customer Support. R&D Management, managing the outsourced development teams. Demonstrated success in motivating, coaching, and leading technical design teams to achieve results. Design, development, testing, and maintenance of complex web-based software systems; hands-on in various WEB technologies.
+  
+  I’m passionate about family, about my gorgeous wife and my adorable kids. In my free time, I’m “The Best Developer in The World” based on my wife’s ranking.
+              </p>
+              <p data-aos-disabled="fade-left" data-aos-delay="500">
+                  Follow Daniel &mdash;
+                  <a href="http://twitter.com/danduh81" target="_blank"  className="p-2"><span className="icon-twitter"></span></a>
+                  <a href="https://medium.com/@danduh" target="_blank" className="p-2"><span className="icon-globe"></span></a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr/>
 
         </div>
       </div>
