@@ -5,11 +5,11 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
-import CallForPaper from '../components/CallForPaper'
+// import CallForPaper from '../components/CallForPaper'
 import Tickets from '../components/Tickets'
 import Speakers from '../components/Speakers'
 // import Schedule from '../components/Schedule'
-// import Sponsors from '../components/Sponsors'
+import Sponsors from '../components/Sponsors'
 // import News from '../components/News'
 import MediaPartner from '../components/MediaPartner'
 import Map from '../components/Map'
@@ -34,6 +34,7 @@ export const IndexPageTemplate = ({
     <Speakers></Speakers>
     <Tickets></Tickets>
     <Newsletter></Newsletter>
+    <Sponsors></Sponsors>
     <MediaPartner></MediaPartner>
     <CodeOfConduct></CodeOfConduct>
     <Map></Map>
