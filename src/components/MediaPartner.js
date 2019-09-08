@@ -41,6 +41,18 @@ const MediaPartner = class extends React.Component {
               </a>
             </div>
           </div>
+          <div className="row mb-5 media-partner__logos">
+            <div className="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos-disabled="fade" data-aos-delay="200">
+              <a href="http://www.bolognajs.com/" target="_blank" alt="Bologna JS">
+              <img src="/images/bolognajs.svg" alt="Bologna JS" className="img-fluid img-full" />
+              </a>
+            </div>
+            <div className="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos-disabled="fade" data-aos-delay="200">
+              <a href="https://www.accademiasantagiulia.it/" target="_blank" alt="Accademia Santa Giulia">
+              <img src="/images/santagiulia.svg" alt="Accademia Santa Giulia" className="img-fluid img-full" />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     )
