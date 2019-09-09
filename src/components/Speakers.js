@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 const Speakers = class extends React.Component {
   render() {
@@ -20,7 +19,7 @@ const Speakers = class extends React.Component {
           {/* spearker 1 */}
           <div className="row -align-items-center speaker">
             <div className="col-lg-4 mb-5 mb-lg-0" data-aos-disabled="fade" data-aos-delay="100">
-              <img src="images/speaker1.png" alt="Image" className="img-fluid" />
+              <img src="images/speaker1.png" alt="Federico Feroldi" className="img-fluid" />
             </div>
             <div className="col-lg-6">
               <div className=" pl-lg-5 mb-4">
@@ -40,9 +39,9 @@ I'll talk about the history of the project, the technical and architectural choi
                 </p>
                 <p data-aos-disabled="fade-right" data-aos-delay="500">
                   Follow Federico &mdash;
-                  <a href="https://twitter.com/cloudify" target="_blank" 
+                  <a href="https://twitter.com/cloudify" target="_blank" rel="noopener noreferrer"
                   className="p-2"><span className="icon-twitter"></span></a>
-                  <a href="https://federicoferoldi.com/" target="_blank" 
+                  <a href="https://federicoferoldi.com/" target="_blank" rel="noopener"
                   className="p-2"><span className="icon-globe"></span></a>
                 </p>
               </div>
@@ -53,7 +52,7 @@ I'll talk about the history of the project, the technical and architectural choi
           {/* spearker 2 */}
           <div className="row -align-items-center speaker">
             <div className="col-lg-4 mb-5 mb-lg-0 order-lg-2" data-aos-disabled="fade" data-aos-delay="100">
-            <img src="images/speaker2.png" alt="Image" className="img-fluid" />
+            <img src="images/speaker2.png" alt="Vojta Prikryl" className="img-fluid" />
           </div>
           <div className="col-lg-6">
             <div className="lg-5 mb-4">
@@ -85,8 +84,8 @@ I'll talk about the history of the project, the technical and architectural choi
               </p>
               <p data-aos-disabled="fade-left" data-aos-delay="500">
                   Follow Vojta &mdash;
-                  <a href="http://twitter.com/vojta_prikryl" target="_blank"  className="p-2"><span className="icon-twitter"></span></a>
-                  <a href="https://www.productboard.com/blog" target="_blank" className="p-2"><span className="icon-globe"></span></a>
+                  <a href="http://twitter.com/vojta_prikryl" target="_blank" rel="noopener noreferrer" className="p-2"><span className="icon-twitter"></span></a>
+                  <a href="https://www.productboard.com/blog" target="_blank" rel="noopener" className="p-2"><span className="icon-globe"></span></a>
                 </p>
               </div>
             </div>
@@ -96,7 +95,7 @@ I'll talk about the history of the project, the technical and architectural choi
           {/* spearker 3 */}
           <div className="row -align-items-center speaker">
             <div className="col-lg-4 mb-5 mb-lg-0" data-aos-disabled="fade" data-aos-delay="100">
-              <img src="images/speaker3.png" alt="Image" className="img-fluid" />
+              <img src="images/speaker3.png" alt="Giovanni Gonzaga" className="img-fluid" />
             </div>
             <div className="col-lg-6">
               <div className=" pl-lg-5 mb-4">
@@ -109,11 +108,11 @@ I'll talk about the history of the project, the technical and architectural choi
               <div className="bio pl-lg-5">
                 <span className="text-uppercase text-primary d-block mb-3" data-aos-disabled="fade-right" data-aos-delay="300">Giovanni Gonzaga</span>
                 <p className="mb-4" data-aos-disabled="fade-right" data-aos-delay="400">
-                  Giovanni works at <a href="https://www.buildo.io/" target="_blank">Buildo</a> as technical lead on areas related to frontend development and TypeScript. He gained experience working as a freelancer in Italy and the US for several years. Passionate about next-generation web technologies, programming languages, functional programming and aviation. Before co-founding buildo, he founded a consultancy agency in Italy and has been research assistant at UIC, where he focused on security related to compilers and operating systems. He graduated from UIC with a Master’s in Computer Science and from Politecnico di Milano with a Master’s in Computer Engineering.
+                  Giovanni works at <a href="https://www.buildo.io/" target="_blank" rel="noopener noreferrer">Buildo</a> as technical lead on areas related to frontend development and TypeScript. He gained experience working as a freelancer in Italy and the US for several years. Passionate about next-generation web technologies, programming languages, functional programming and aviation. Before co-founding buildo, he founded a consultancy agency in Italy and has been research assistant at UIC, where he focused on security related to compilers and operating systems. He graduated from UIC with a Master’s in Computer Science and from Politecnico di Milano with a Master’s in Computer Engineering.
                 </p>
                 <p data-aos-disabled="fade-right" data-aos-delay="500">
                   Follow Giovanni &mdash;
-                  <a href="https://twitter.com/giogonzo" target="_blank"
+                  <a href="https://twitter.com/giogonzo" target="_blank"  rel="noopener noreferrer"
                     className="p-2"><span className="icon-twitter"></span></a>
                 </p>
               </div>
@@ -124,7 +123,7 @@ I'll talk about the history of the project, the technical and architectural choi
           {/* spearker 4 */}
           <div className="row -align-items-center speaker">
             <div className="col-lg-4 mb-5 mb-lg-0 order-lg-2" data-aos-disabled="fade" data-aos-delay="100">
-            <img src="images/speaker4.png" alt="Image" className="img-fluid" />
+            <img src="images/speaker4.png" alt="Daniel Ostrovsky" className="img-fluid" />
           </div>
           <div className="col-lg-6">
             <div className="lg-5 mb-4">
@@ -189,8 +188,8 @@ I'll talk about the history of the project, the technical and architectural choi
               </p>
               <p data-aos-disabled="fade-left" data-aos-delay="500">
                   Follow Daniel &mdash;
-                  <a href="http://twitter.com/danduh81" target="_blank"  className="p-2"><span className="icon-twitter"></span></a>
-                  <a href="https://medium.com/@danduh" target="_blank" className="p-2"><span className="icon-globe"></span></a>
+                  <a href="http://twitter.com/danduh81" target="_blank" rel="noopener noreferrer" className="p-2"><span className="icon-twitter"></span></a>
+                  <a href="https://medium.com/@danduh" target="_blank" rel="noopener noreferrer" className="p-2"><span className="icon-globe"></span></a>
                 </p>
               </div>
             </div>
