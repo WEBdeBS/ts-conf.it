@@ -40,7 +40,7 @@ const Footer = class extends React.Component {
                 <p>
                   Copyright © WEBdeBS 2019
                   <br/>
-                  WEBdeBS - Associazione di Promozione Sociale senza scopo di lucro <a href="http://www.webdebs.org" target="_blank" rel="noopener noreferrer">www.webdebs.org</a> - <a href="mailto:info@webdebs.org">info@webdebs.org</a>
+                  WEBdeBS - Associazione di Promozione Sociale senza scopo di lucro <a href="http://www.webdebs.org" target="_blank" rel="noopener">www.webdebs.org</a> - <a href="mailto:info@webdebs.org">info@webdebs.org</a>
                 </p>
               </div>
             </div>

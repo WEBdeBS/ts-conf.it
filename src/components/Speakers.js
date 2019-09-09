@@ -41,7 +41,7 @@ I'll talk about the history of the project, the technical and architectural choi
                   Follow Federico &mdash;
                   <a href="https://twitter.com/cloudify" target="_blank" rel="noopener noreferrer"
                   className="p-2"><span className="icon-twitter"></span></a>
-                  <a href="https://federicoferoldi.com/" target="_blank" rel="noopener noreferrer"
+                  <a href="https://federicoferoldi.com/" target="_blank" rel="noopener"
                   className="p-2"><span className="icon-globe"></span></a>
                 </p>
               </div>
@@ -85,7 +85,7 @@ I'll talk about the history of the project, the technical and architectural choi
               <p data-aos-disabled="fade-left" data-aos-delay="500">
                   Follow Vojta &mdash;
                   <a href="http://twitter.com/vojta_prikryl" target="_blank" rel="noopener noreferrer" className="p-2"><span className="icon-twitter"></span></a>
-                  <a href="https://www.productboard.com/blog" target="_blank" rel="noopener noreferrer" className="p-2"><span className="icon-globe"></span></a>
+                  <a href="https://www.productboard.com/blog" target="_blank" rel="noopener" className="p-2"><span className="icon-globe"></span></a>
                 </p>
               </div>
             </div>
