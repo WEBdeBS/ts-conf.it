@@ -196,6 +196,46 @@ I'll talk about the history of the project, the technical and architectural choi
           </div>
           <hr/>
 
+          {/* spearker 5 */}
+          <div className="row -align-items-center speaker">
+            <div className="col-lg-4 mb-5 mb-lg-0" data-aos-disabled="fade" data-aos-delay="100">
+              <img src="images/speaker5.png" alt="Massimiliano Mantione" className="img-fluid" />
+            </div>
+            <div className="col-lg-6">
+              <div className=" pl-lg-5 mb-4">
+                <h2 className="text-white mb-4 name" data-aos-disabled="fade-right" data-aos-delay="200">The Cost of Abstractions</h2>
+                As programmers we use abstractions all the time, but do we ever care about their costs? In this talk we’ll benchmark several implementations of a small but significant piece of code, using different abstractions to make it “better” but also measuring their cost in several dimensions.
+                <br />
+                <br />
+                In this talk we’ll focus on the cost of abstractions, and how they impact the quality of the resulting code.<br/>
+                We’ll consider the following costs:
+                <ul>
+                  <li>computational complexity (CPU resources used)</li>
+                  <li>code size (including eventual dependencies)</li>
+                  <li>eventually memory usage</li>
+                  <li>code complexity and maintainability (they should get better using abstractions)</li>
+                  <li>cognitive overhead (how hard it is to understand the abstraction)</li>
+                </ul>
+                The piece of code we’ll use is small enough to be understood by the audience in a minute, but it is realistic and could be used in production both in a front end and in a back end.<br/>
+                As abstractions we’ll gradually introduce types and functional constructs. Then we’ll also show a Rust implementation using the same abstractions (this is significant because the language claims to support “zero cost abstractions”), running both as native code and as a WASM module, and compare it to the Typescript one. Finally we’ll also investigate how AssemblyScript influences the costs.
+              </div>
+              <div className="bio pl-lg-5">
+                <span className="text-uppercase text-primary d-block mb-3" data-aos-disabled="fade-right" data-aos-delay="300">Massimiliano Mantione</span>
+                <p className="mb-4" data-aos-disabled="fade-right" data-aos-delay="400">
+                  I am a software engineer, mostly interested in programming languages and compilers. 
+                  I started as a Javascript hater but this changed after I worked in the V8 team in Google for about one year and half, and now I am using Typescript regularly to make JS “bearable”. 
+                  Currently I am working on a virtual reality system for business events on the web: <a href="https://www.hyperfair.com/" target="_blank" rel="noopener">Hyperfair</a>.
+                </p>
+                <p data-aos-disabled="fade-right" data-aos-delay="500">
+                  Follow Massimiliano &mdash;
+                  <a href="https://twitter.com/M_a_s_s_i" target="_blank" rel="noopener noreferrer"
+                    className="p-2"><span className="icon-twitter"></span></a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr />
+
         </div>
       </div>
 
