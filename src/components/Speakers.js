@@ -200,6 +200,8 @@ I'll talk about the history of the project, the technical and architectural choi
           <div className="row -align-items-center speaker">
             <div className="col-lg-4 mb-5 mb-lg-0" data-aos-disabled="fade" data-aos-delay="100">
               <img src="images/speaker5.png" alt="Massimiliano Mantione" className="img-fluid" />
+              <br/><br/>
+              <img src="images/speaker5a.png" alt="Gianluca Carucci" className="img-fluid img-full-width"/>
             </div>
             <div className="col-lg-6">
               <div className=" pl-lg-5 mb-4">
@@ -229,6 +231,48 @@ I'll talk about the history of the project, the technical and architectural choi
                 <p data-aos-disabled="fade-right" data-aos-delay="500">
                   Follow Massimiliano &mdash;
                   <a href="https://twitter.com/M_a_s_s_i" target="_blank" rel="noopener noreferrer"
+                    className="p-2"><span className="icon-twitter"></span></a>
+                </p>
+              </div>
+              <div className="bio pl-lg-5">
+                <span className="text-uppercase text-primary d-block mb-3" data-aos-disabled="fade-right" data-aos-delay="300">Gianluca Carucci</span>
+                <p className="mb-4" data-aos-disabled="fade-right" data-aos-delay="400">
+                  I am seasoned IT professionist with a degree in Computer Science and over 15 years experience in a wide variety of high availability and large scale systems, eager to solve real-life technical problems by using a mixture of innovation and proven methodologies to enable people to be more productive, making their lives easier and more enjoyable.
+                  Over the past few years I have been focusing on improving my functional programming skills, in particular with Scala and Clojure.
+                  As appreciative of Agile methodologies I'm particularly keen on Scrum and Extreme Programming practices to continuously increase customers' return of investment.
+                  Experience working closely to UX teams has taught me how starting from user experience design is the key to success for a software product.
+                  Last but not least I have been a water polo player since 1986.
+                </p>
+                <p data-aos-disabled="fade-right" data-aos-delay="500">
+                  Follow Gianluca &mdash;
+                  <a href="https://twitter.com/rucka" target="_blank" rel="noopener noreferrer"
+                    className="p-2"><span className="icon-twitter"></span></a>
+                </p>
+              </div>
+
+              
+            </div>
+          </div>
+          <hr />
+
+          {/* spearker 6 */}
+          <div className="row -align-items-center speaker">
+            <div className="col-lg-4 mb-5 mb-lg-0  order-lg-2" data-aos-disabled="fade" data-aos-delay="100">
+              <img src="images/speaker6.png" alt="Andrea Valentini" className="img-fluid img-full-width" />
+            </div>
+            <div className="col-lg-6">
+              <div className=" pl-lg-5 mb-4">
+                <h2 className="text-white mb-4 name" data-aos-disabled="fade-right" data-aos-delay="200">Building Infrastructure as a Code with Typescript and AWS CDK</h2>
+                The AWS CDK is a software development framework to define cloud infrastructure as code and provision it through CloudFormation. The CDK integrates fully with AWS services and offers a higher-level object-oriented abstraction to define AWS resources imperatively. The CDK improves your end-to-end development experience because you get to use the power of modern programming languages to define your AWS infrastructure in a predictable and efficient manner.” You can build test and deploy a true Infrastructure as a Code architecture using Typescript. make Reusable code and enjoy the code completion feature of IDE’s to create your cloud Infrastructure.
+              </div>
+              <div className="bio pl-lg-5">
+                <span className="text-uppercase text-primary d-block mb-3" data-aos-disabled="fade-right" data-aos-delay="300">Andrea Valentini</span>
+                <p className="mb-4" data-aos-disabled="fade-right" data-aos-delay="400">
+                I am a Full Stack Engineer and Solution Architect, with expertise in web technologies. I have experience in creating mobile and web applications using JavaScript libraries and frameworks such as Angular or React and making Serverless applications using Amazon Web Services and Google Cloud Platform. I joined several workshops on Javascript, NodeJS, HTML5, Cloud Architectures and latest tools as speaker on code organization and best practices. Next steps: continuous updating on new technologies and have fun! Interested in challenging technical roles in scaling distributed web applications.
+                </p>
+                <p data-aos-disabled="fade-right" data-aos-delay="500">
+                  Follow Andrea &mdash;
+                  <a href="https://twitter.com/Andrea_19_94" target="_blank" rel="noopener noreferrer"
                     className="p-2"><span className="icon-twitter"></span></a>
                 </p>
               </div>
