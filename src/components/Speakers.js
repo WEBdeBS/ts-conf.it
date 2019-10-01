@@ -200,6 +200,8 @@ I'll talk about the history of the project, the technical and architectural choi
           <div className="row -align-items-center speaker">
             <div className="col-lg-4 mb-5 mb-lg-0" data-aos-disabled="fade" data-aos-delay="100">
               <img src="images/speaker5.png" alt="Massimiliano Mantione" className="img-fluid" />
+              <br/><br/>
+              <img src="images/speaker5a.png" alt="Gianluca Carucci" className="img-fluid img-full-width"/>
             </div>
             <div className="col-lg-6">
               <div className=" pl-lg-5 mb-4">
@@ -232,6 +234,23 @@ I'll talk about the history of the project, the technical and architectural choi
                     className="p-2"><span className="icon-twitter"></span></a>
                 </p>
               </div>
+              <div className="bio pl-lg-5">
+                <span className="text-uppercase text-primary d-block mb-3" data-aos-disabled="fade-right" data-aos-delay="300">Gianluca Carucci</span>
+                <p className="mb-4" data-aos-disabled="fade-right" data-aos-delay="400">
+                  I am seasoned IT professionist with a degree in Computer Science and over 15 years experience in a wide variety of high availability and large scale systems, eager to solve real-life technical problems by using a mixture of innovation and proven methodologies to enable people to be more productive, making their lives easier and more enjoyable.
+                  Over the past few years I have been focusing on improving my functional programming skills, in particular with Scala and Clojure.
+                  As appreciative of Agile methodologies I'm particularly keen on Scrum and Extreme Programming practices to continuously increase customers' return of investment.
+                  Experience working closely to UX teams has taught me how starting from user experience design is the key to success for a software product.
+                  Last but not least I have been a water polo player since 1986.
+                </p>
+                <p data-aos-disabled="fade-right" data-aos-delay="500">
+                  Follow Gianluca &mdash;
+                  <a href="https://twitter.com/rucka" target="_blank" rel="noopener noreferrer"
+                    className="p-2"><span className="icon-twitter"></span></a>
+                </p>
+              </div>
+
+              
             </div>
           </div>
           <hr />
