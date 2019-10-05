@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 const Sponsors = class extends React.Component {
   render() {
     return (
-      <div className="site-section sponsors">
+      <div className="site-section sponsors" id="sponsors">
         <div className="container">
           <div className="row mb-5">
             <div className="col-lg-4 ">
