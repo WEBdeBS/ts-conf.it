@@ -9,7 +9,7 @@ import Hero from '../components/Hero'
 import Tickets from '../components/Tickets'
 import Speakers from '../components/Speakers'
 // import Schedule from '../components/Schedule'
-// import Sponsors from '../components/Sponsors'
+import Sponsors from '../components/Sponsors'
 // import News from '../components/News'
 import MediaPartner from '../components/MediaPartner'
 import Map from '../components/Map'
@@ -33,6 +33,7 @@ export const IndexPageTemplate = ({
     <Hero></Hero>
     <Speakers></Speakers>
     <Tickets></Tickets>
+    <Sponsors></Sponsors>
     <Newsletter></Newsletter>
     <MediaPartner></MediaPartner>
     <CodeOfConduct></CodeOfConduct>
