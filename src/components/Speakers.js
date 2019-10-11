@@ -282,7 +282,7 @@ I'll talk about the history of the project, the technical and architectural choi
 
           {/* spearker 7 */}
           <div className="row -align-items-center speaker">
-            <div className="col-lg-4 mb-5 mb-lg-0  order-lg-2" data-aos-disabled="fade" data-aos-delay="100">
+            <div className="col-lg-4 mb-5 mb-lg-0" data-aos-disabled="fade" data-aos-delay="100">
               <img src="images/speaker7.png" alt="Orta Therox" className="img-fluid img-full-width" />
             </div>
             <div className="col-lg-6">
