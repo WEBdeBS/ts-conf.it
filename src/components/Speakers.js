@@ -280,6 +280,31 @@ I'll talk about the history of the project, the technical and architectural choi
           </div>
           <hr />
 
+          {/* spearker 7 */}
+          <div className="row -align-items-center speaker">
+            <div className="col-lg-4 mb-5 mb-lg-0  order-lg-2" data-aos-disabled="fade" data-aos-delay="100">
+              <img src="images/speaker7.png" alt="Orta Therox" className="img-fluid img-full-width" />
+            </div>
+            <div className="col-lg-6">
+              <div className=" pl-lg-5 mb-4">
+                <h2 className="text-white mb-4 name" data-aos-disabled="fade-right" data-aos-delay="200">Start Betting on TypeScript</h2>
+                How did TypeScript get to be so popular and does it have sticking power? We'll look through the way in which TypeScript has changed the JavaScript ecosystems and how the underlaying tools like tsserver, playgrounds and tsc come together to help more than just TypeScript users.
+              </div>
+              <div className="bio pl-lg-5">
+                <span className="text-uppercase text-primary d-block mb-3" data-aos-disabled="fade-right" data-aos-delay="300">Orta Therox</span>
+                <p className="mb-4" data-aos-disabled="fade-right" data-aos-delay="400">
+                An Engineer on the TypeScript team in Microsoft. He has a decade of open source contributions ranging across many eco-systems, helps maintain a dependency manager for iOS, built Danger in many languages, contributes to working groups like GraphQL and in core teams like Jest and React Native. You've probably seen his open source design work, and is currently working on improving documentation for TypeScript.
+                </p>
+                <p data-aos-disabled="fade-right" data-aos-delay="500">
+                  Follow Orta &mdash;
+                  <a href="https://twitter.com/orta" target="_blank" rel="noopener noreferrer"
+                    className="p-2"><span className="icon-twitter"></span></a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr />
+
         </div>
       </div>
 
