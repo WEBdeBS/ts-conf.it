@@ -14,6 +14,7 @@ const Footer = class extends React.Component {
               <h2 className="footer-heading text-uppercase mb-4">Quick Links</h2>
               <ul className="list-unstyled">
                 <li><a href="#speakers">Speakers</a></li>
+                <li><a href="#schedule">Schedule</a></li>
                 <li><a href="#tickets">Tickets</a></li>
                 <li><a href="#newsletter">Newsletter</a></li>
                 <li><a href="#code-of-conduct">Code of Conduct</a></li>

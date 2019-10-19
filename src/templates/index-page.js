@@ -8,7 +8,7 @@ import Hero from '../components/Hero'
 // import CallForPaper from '../components/CallForPaper'
 import Tickets from '../components/Tickets'
 import Speakers from '../components/Speakers'
-// import Schedule from '../components/Schedule'
+import Schedule from '../components/Schedule'
 import Sponsors from '../components/Sponsors'
 // import News from '../components/News'
 import MediaPartner from '../components/MediaPartner'
@@ -32,6 +32,7 @@ export const IndexPageTemplate = ({
     <Header></Header>
     <Hero></Hero>
     <Speakers></Speakers>
+    <Schedule></Schedule>
     <Tickets></Tickets>
     <Sponsors></Sponsors>
     <Newsletter></Newsletter>
