@@ -17,7 +17,7 @@ const Speakers = class extends React.Component {
           </div>
           
           {/* spearker 1 */}
-          <div className="row -align-items-center speaker">
+          <div id="speaker1" className="row -align-items-center speaker">
             <div className="col-lg-4 mb-5 mb-lg-0" data-aos-disabled="fade" data-aos-delay="100">
               <img src="images/speaker1.png" alt="Federico Feroldi" className="img-fluid" />
             </div>
@@ -50,7 +50,7 @@ I'll talk about the history of the project, the technical and architectural choi
           <hr/>
 
           {/* spearker 2 */}
-          <div className="row -align-items-center speaker">
+          <div id="speaker2" className="row -align-items-center speaker">
             <div className="col-lg-4 mb-5 mb-lg-0 order-lg-2" data-aos-disabled="fade" data-aos-delay="100">
             <img src="images/speaker2.png" alt="Vojta Prikryl" className="img-fluid" />
           </div>
@@ -93,7 +93,7 @@ I'll talk about the history of the project, the technical and architectural choi
           <hr/>
 
           {/* spearker 3 */}
-          <div className="row -align-items-center speaker">
+          <div id="speaker3" className="row -align-items-center speaker">
             <div className="col-lg-4 mb-5 mb-lg-0" data-aos-disabled="fade" data-aos-delay="100">
               <img src="images/speaker3.png" alt="Giovanni Gonzaga" className="img-fluid" />
             </div>
@@ -121,7 +121,7 @@ I'll talk about the history of the project, the technical and architectural choi
           <hr />
 
           {/* spearker 4 */}
-          <div className="row -align-items-center speaker">
+          <div id="speaker4" className="row -align-items-center speaker">
             <div className="col-lg-4 mb-5 mb-lg-0 order-lg-2" data-aos-disabled="fade" data-aos-delay="100">
             <img src="images/speaker4.png" alt="Daniel Ostrovsky" className="img-fluid" />
           </div>
@@ -197,7 +197,7 @@ I'll talk about the history of the project, the technical and architectural choi
           <hr/>
 
           {/* spearker 5 */}
-          <div className="row -align-items-center speaker">
+          <div id="speaker5" className="row -align-items-center speaker">
             <div className="col-lg-4 mb-5 mb-lg-0" data-aos-disabled="fade" data-aos-delay="100">
               <img src="images/speaker5.png" alt="Massimiliano Mantione" className="img-fluid" />
               <br/><br/>
@@ -256,7 +256,7 @@ I'll talk about the history of the project, the technical and architectural choi
           <hr />
 
           {/* spearker 6 */}
-          <div className="row -align-items-center speaker">
+          <div id="speaker6" className="row -align-items-center speaker">
             <div className="col-lg-4 mb-5 mb-lg-0  order-lg-2" data-aos-disabled="fade" data-aos-delay="100">
               <img src="images/speaker6.png" alt="Andrea Valentini" className="img-fluid img-full-width" />
             </div>
@@ -281,7 +281,7 @@ I'll talk about the history of the project, the technical and architectural choi
           <hr />
 
           {/* spearker 7 */}
-          <div className="row -align-items-center speaker">
+          <div id="speaker7" className="row -align-items-center speaker">
             <div className="col-lg-4 mb-5 mb-lg-0" data-aos-disabled="fade" data-aos-delay="100">
               <img src="images/speaker7.png" alt="Orta Therox" className="img-fluid img-full-width" />
             </div>
